@@ -56,9 +56,13 @@ namespace BrickBreaker
         public Form1()
         {
             InitializeComponent();
-            lives = 3;
-            paddleSpeed = 10;
-            xSpeed = ySpeed = 6;
+            if (BrickBreaker.OptionScreen.difficulty == 0)
+            {
+                lives = 3;
+                paddleSpeed = 10;
+                xSpeed = ySpeed = 6;
+            }
+
     }
 
         private void Form1_Load(object sender, EventArgs e)

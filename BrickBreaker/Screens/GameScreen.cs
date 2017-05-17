@@ -105,6 +105,7 @@ namespace BrickBreaker.Screens
             int paddleX = ((this.Width / 2) - (paddleWidth / 2));
             int paddleY = (this.Height - paddleHeight) - 60;
             int paddleSpeed = Form1.paddleSpeed;
+           
             //add player 1 paddle
             paddle = new Paddle(paddleX, paddleY, paddleWidth, paddleHeight, paddleSpeed, Color.White);
 
