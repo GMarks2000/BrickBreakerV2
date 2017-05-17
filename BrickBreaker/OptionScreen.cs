@@ -24,7 +24,7 @@ namespace BrickBreaker
             difficultyLabel.Text = " -3 lives \n\n -Medium ball speed \n\n -medium paddle speed";
             acceptLabel.Text = " Click the 'Accept Button'\n to confirm difficulty";
             
-
+                
             #region remembers previous difficulty
             if (difficulty == 1)
             {
